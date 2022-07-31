@@ -286,6 +286,12 @@ h1 {
 }
 
 @media screen and (max-width: 768px) {
+  .e--last {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 768px) {
   .links {
     display: none;
   }

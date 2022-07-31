@@ -288,6 +288,12 @@ h1{
     }
 }
 
+.e--last{
+    @media screen and (max-width: 768px) {
+        display: block;
+    }
+}
+
 .links{
     @media screen and (max-width: 768px) {
         display: none;

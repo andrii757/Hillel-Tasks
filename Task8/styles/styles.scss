@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    transition: .2s ease-in-out;
+}
+
+.p{
+    &-45{
+        padding: 2rem !important;
+    }
+    &l-45{
+        padding-left: 2rem !important;
+    }
+    &r-45{
+        padding-right: 2rem !important;
+    }
+    &t-45{
+        padding-top: 2rem !important;
+    }
+    &b-45{
+        padding-bottom: 2rem !important;
+    }
+}
+
+.m{
+    &-45{
+        margin: 2rem !important;
+    }
+    &l-45{
+        margin-left: 2rem !important;
+    }
+    &r-45{
+        margin-right: 2rem !important;
+    }
+    &t-45{
+        margin-top: 2rem !important;
+    }
+    &b-45{
+        margin-bottom: 2rem !important;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .p{
+        &-lg-45{
+            padding: 2rem !important;
+        }
+        &l-lg-45{
+            padding-left: 2rem !important;
+        }
+        &r-lg-45{
+            padding-right: 2rem !important;
+        }
+        &t-lg-45{
+            padding-top: 2rem !important;
+        }
+        &b-lg-45{
+            padding-bottom: 2rem !important;
+        }
+    }
+    
+    .m{
+        &-lg-45{
+            margin: 2rem !important;
+        }
+        &l-lg-45{
+            margin-left: 2rem !important;
+        }
+        &r-lg-45{
+            margin-right: 2rem !important;
+        }
+        &t-lg-45{
+            margin-top: 2rem !important;
+        }
+        &b-lg-45{
+            margin-bottom: 2rem !important;
+        }
+    }
+}
+
+
+.bg-red{
+    background-color: red;
+}
+.bg-green{
+    background-color: green;
+}
+
+
+.get-app{
+    padding-left: 15px;
+}
+
+.e--bg-sec7{
+    background-color: #1DB5BE;
+}
+
+.e--foot-sec{
+    a{
+        text-decoration: none;
+        color: white;
+        
+    }
+    color: white;
+    line-height: 2;
+    flex-flow: row wrap;
+}
+
+.e--flex-flow{
+    flex-flow: row wrap;
+}

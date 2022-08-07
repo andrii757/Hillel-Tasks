@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  transition: 0.2s ease-in-out;
+}
+
+.p-45 {
+  padding: 2rem !important;
+}
+.pl-45 {
+  padding-left: 2rem !important;
+}
+.pr-45 {
+  padding-right: 2rem !important;
+}
+.pt-45 {
+  padding-top: 2rem !important;
+}
+.pb-45 {
+  padding-bottom: 2rem !important;
+}
+
+.m-45 {
+  margin: 2rem !important;
+}
+.ml-45 {
+  margin-left: 2rem !important;
+}
+.mr-45 {
+  margin-right: 2rem !important;
+}
+.mt-45 {
+  margin-top: 2rem !important;
+}
+.mb-45 {
+  margin-bottom: 2rem !important;
+}
+
+@media screen and (min-width: 992px) {
+  .p-lg-45 {
+    padding: 2rem !important;
+  }
+  .pl-lg-45 {
+    padding-left: 2rem !important;
+  }
+  .pr-lg-45 {
+    padding-right: 2rem !important;
+  }
+  .pt-lg-45 {
+    padding-top: 2rem !important;
+  }
+  .pb-lg-45 {
+    padding-bottom: 2rem !important;
+  }
+  .m-lg-45 {
+    margin: 2rem !important;
+  }
+  .ml-lg-45 {
+    margin-left: 2rem !important;
+  }
+  .mr-lg-45 {
+    margin-right: 2rem !important;
+  }
+  .mt-lg-45 {
+    margin-top: 2rem !important;
+  }
+  .mb-lg-45 {
+    margin-bottom: 2rem !important;
+  }
+}
+.bg-red {
+  background-color: red;
+}
+
+.bg-green {
+  background-color: green;
+}
+
+.get-app {
+  padding-left: 15px;
+}
+
+.e--bg-sec7 {
+  background-color: #1DB5BE;
+}
+
+.e--foot-sec {
+  color: white;
+  line-height: 2;
+  flex-flow: row wrap;
+}
+.e--foot-sec a {
+  text-decoration: none;
+  color: white;
+}
+
+.e--flex-flow {
+  flex-flow: row wrap;
+}/*# sourceMappingURL=styles.css.map */

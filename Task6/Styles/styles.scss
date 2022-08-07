@@ -1,0 +1,156 @@
+section{
+    max-width: 1440px;
+    width: 100%;
+    margin: 40px auto;
+    display: flex;
+    a{
+        text-decoration: none;
+    }
+}
+
+.block-pictures{
+    width: 45%;
+}
+
+.picture:hover {
+    transform: scale(1.2);
+    width: 75%; 
+    height: 250px;
+    box-sizing: border-box;
+    position: -webkit-sticky;
+    margin-left: 80px;
+    margin-top: 40px;
+   }
+
+picture ul li{
+    list-style: none;
+    
+}
+    
+
+.block-data{
+    width: 35%;
+}
+
+.block-forms{
+    width: 20%;
+    border: none;
+}
+
+.button{
+    padding: 5px 10px;
+    border: 1px dashed grey;
+    background-color: transparent;
+    outline: none;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ccc;
+    cursor: pointer;
+    &:hover{
+        background-color: bisque;
+        color: black;
+        font-weight: 600;
+    }
+    &.e--disable{
+        color: #ccc;
+        cursor: default;
+        &:hover{
+            color: #ccc;
+            font-weight: 400;
+            background-color: transparent;
+        }
+    }
+    &.e--active{
+        color: black;
+        font-weight: 600;
+        border: 1px solid red;
+    }
+}
+table{
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 20px;
+    tr td:first-child{
+        font-weight: 600;
+    }
+}
+
+
+
+.input{
+    padding: 5px 10px;
+    border: 1px solid lightblue;
+    border-radius: 10px;
+    background-color: white;
+    outline: none;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    cursor: pointer;
+    &:hover{
+        background-color: lightblue;
+        font-weight: 400;
+    }
+}
+
+.input-list{
+    padding: 5px 54px;
+    border: 1px solid lightblue;
+    background-color: transparent;
+    outline: none;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    cursor: pointer;
+    &:hover{
+        background-color: lightblue;
+        font-weight: 400;
+    }
+}
+
+.about-item{
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 18px;
+    p:first-child{
+        font-size: 18px;
+        font-weight: 600;
+    }
+    li::marker{
+        font-size: 18px;
+        font-weight: 800;
+    }
+}
+
+.form2{
+    text-align: center;
+}
+
+.fieldset{
+    outline: none;
+    border: none;
+    text-align: center;
+}
+
+.img-stars{
+    width: 80px;
+    height: 16px;
+    
+}
+
+.img-climate{
+    width: 188px;
+    height: 30px;
+}
+
+.img-key{
+    width: 120px;
+    height: 50px;
+    vertical-align: middle;
+}
+
+.renewed{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
